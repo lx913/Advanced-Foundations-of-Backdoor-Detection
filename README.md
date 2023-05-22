@@ -31,28 +31,28 @@ pip install -r requirements.txt
 
 The directory structure and each directory function are shown below:
 
-|-- CIFAR10						# experiments directory for CIFAR10 dataset<br />
-|   |-- BadNets					   # training models attacked by BadNets	<br />
-|   |   |-- model_template                       # preactres18 & senet18 template<br />
-|   |   |-- save_model                               # where models are saved<br />
-|   |-- Benign                                             # training benign models<br />
+|-- CIFAR10						**# experiments directory for CIFAR10 dataset**<br />
+|   |-- BadNets					   **# training models attacked by BadNets**	<br />
+|   |   |-- model_template                       **# preactres18 & senet18 template**<br />
+|   |   |-- save_model                               **# where models are saved**<br />
+|   |-- Benign                                             **# training benign models**<br />
 |   |   |-- model_template<br />
 |   |   |-- save_model<br />
-|   |-- Blended                                          # training models attacked by Blended<br />
-|   |   |-- blended_pattern                      # where "hello kitty" image is saved<br />
+|   |-- Blended                                          **# training models attacked by Blended**<br />
+|   |   |-- blended_pattern                      **# where "hello kitty" image is saved**<br />
 |   |   |-- model_template<br />
 |   |   |-- save_model<br />
-|   |-- ISSBA                                             # training models attacked by ISSBA<br />
-|   |   |-- StegaStamp                            # training encoder for attacking in ISSBA<br />
+|   |-- ISSBA                                             **# training models attacked by ISSBA**<br />
+|   |   |-- StegaStamp                            **# training encoder for attacking in ISSBA**<br />
 |   |   |-- model_template<br />
 |   |   |-- save_model<br />
-|   |   |-- saved_models                         # where encoder is saved<br />
-|   |-- WaNet                                           # training models attacked by WaNet<br />
+|   |   |-- saved_models                         **# where encoder is saved**<br />
+|   |-- WaNet                                           **# training models attacked by WaNet**<br />
 |   |   |-- model_template<br />
 |   |   |-- save_model<br />
-|   |   |-- utils                                           # dataloader<br />
-|   |-- dataset                                           # where dataset is saved<br />
-|-- GTSRB                                                 # experiments directory for GTSRB dataset<br />
+|   |   |-- utils                                           **# dataloader**<br />
+|   |-- dataset                                           **# where dataset is saved**<br />
+|-- GTSRB                                                 **# experiments directory for GTSRB dataset**<br />
 |    |-- BadNets<br />
 |    |   |-- model_template<br />
 |    |   |-- save_model<br />
