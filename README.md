@@ -32,8 +32,8 @@ pip install -r requirements.txt
 The directory structure and each directory function are shown below:
 
 |-- CIFAR10						**# experiments directory for CIFAR10 dataset**<br />
-|   |-- BadNets					   **# training models attacked by BadNets**	<br />
-|   |   |-- model_template                       **# preactres18 & senet18 template**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- BadNets					   **# training models attacked by BadNets**	<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template                       **# preactres18 & senet18 template**<br />
 |   |   |-- save_model                               **# where models are saved**<br />
 |   |-- Benign                                             **# training benign models**<br />
 |   |   |-- model_template<br />
