@@ -34,44 +34,44 @@ The directory structure and each directory function are shown below:
 |-- CIFAR10						**# experiments directory for CIFAR10 dataset**<br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|-- BadNets					   **# training models attacked by BadNets**	<br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template                       **# preactres18 & senet18 template**<br />
-|   |   |-- save_model                               **# where models are saved**<br />
-|   |-- Benign                                             **# training benign models**<br />
-|   |   |-- model_template<br />
-|   |   |-- save_model<br />
-|   |-- Blended                                          **# training models attacked by Blended**<br />
-|   |   |-- blended_pattern                      **# where "hello kitty" image is saved**<br />
-|   |   |-- model_template<br />
-|   |   |-- save_model<br />
-|   |-- ISSBA                                             **# training models attacked by ISSBA**<br />
-|   |   |-- StegaStamp                            **# training encoder for attacking in ISSBA**<br />
-|   |   |-- model_template<br />
-|   |   |-- save_model<br />
-|   |   |-- saved_models                         **# where encoder is saved**<br />
-|   |-- WaNet                                           **# training models attacked by WaNet**<br />
-|   |   |-- model_template<br />
-|   |   |-- save_model<br />
-|   |   |-- utils                                           **# dataloader**<br />
-|   |-- dataset                                           **# where dataset is saved**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model                               **# where models are saved**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- Benign                                             **# training benign models**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- Blended                                          **# training models attacked by Blended**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- blended_pattern                      **# where "hello kitty" image is saved**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- ISSBA                                             **# training models attacked by ISSBA**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- StegaStamp                            **# training encoder for attacking in ISSBA**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- saved_models                         **# where encoder is saved**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- WaNet                                           **# training models attacked by WaNet**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- utils                                           **# dataloader**<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- dataset                                           **# where dataset is saved**<br />
 |-- GTSRB                                                 **# experiments directory for GTSRB dataset**<br />
-|    |-- BadNets<br />
-|    |   |-- model_template<br />
-|    |   |-- save_model<br />
-|    |-- Benign<br />
-|    |   |-- model_template<br />
-|    |   |-- save_model<br />
-|    |-- Blended<br />
-|    |   |-- blended_pattern<br />
-|    |   |-- model_template<br />
-|    |   |-- save_model<br />
-|    |-- ISSBA<br />
-|    |   |-- model_template<br />
-|    |   |-- save_model<br />
-|    |   |-- saved_models<br />
-|    |-- WaNet<br />
-|    |   |-- model_template<br />
-|    |   |-- save_model<br />
-|    |   |-- utils<br />
-|    |-- dataset
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- BadNets<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- Benign<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- Blended<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- blended_pattern<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- ISSBA<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- saved_models<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- WaNet<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- model_template<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- save_model<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|-- utils<br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|-- dataset
 
 ## Quick Start
 
