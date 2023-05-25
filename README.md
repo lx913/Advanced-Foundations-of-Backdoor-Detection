@@ -122,7 +122,7 @@ python3 detect.py -model resnet -modelnum 10
 If you have finetuned  models, you can use **detect_with_fine-tune.py** to implement TBD to detect models.
 
 ```shell
-python3 detect.py -model resnet -modelnum 10
+python3 detect_with_fine-tune.py -model resnet -modelnum 10
 ```
 
 | Parameter | Function                                                  |
